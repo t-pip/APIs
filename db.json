@@ -1,8 +1,8 @@
-{
+
     "provider": "TPJ",
     "version": "1",
     "host": "https://c873e149-5e81-498b-a4d9-8ebda680cd68.mock.pstmn.io",
-    "snapshotTime": "2022-02-16T17:46:03Z", 
+    "snapshotTime": "{{$isoTimestamp}}", 
     "Links": [
         {
             "rel": "self",
