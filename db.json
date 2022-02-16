@@ -1,0 +1,81 @@
+{
+    "provider": "TPJ",
+    "version": "1",
+    "host": "https://c873e149-5e81-498b-a4d9-8ebda680cd68.mock.pstmn.io",
+    "snapshotTime": "2022-02-16T17:46:03Z", 
+    "Links": [
+        {
+            "rel": "self",
+            "info": "The referral URI",
+            "href": "https://c873e149-5e81-498b-a4d9-8ebda680cd68.mock.pstmn.io/v1/data/trackers/204"
+        },
+        
+    ],
+    "count": 1,
+    "Equipment": [
+        {
+            "EquipmentHeader": {
+                "OEMName": "TestPopulated",
+                "Model": "320E",
+                "EquipmentID": "146",
+                "SerialNumber": "Z01922",
+                "PIN": "NAZ01922"
+            },
+            "CumulativeIdleNonOperatingHours": {
+                "datetime": "2022-02-16T17:46:03Z",
+                "Hour": "74.75",
+                "Minutes": "4485"
+            },
+            "CumulativeOperatingHours": {
+                "datetime": "2022-02-16T17:46:03Z",
+                "Hour": "10001"
+            },
+            "Distance": {
+                "datetime": "2022-02-16T17:46:03Z",
+                "OdometerUnits": "kilometre",
+                "Odometer": null
+            },
+            "Location": {
+                "datetime": "2022-02-16 16:42:43",
+                "Latitude": "53.539856",
+                "Longitude": "-0.110443",
+                "Altitude": null,
+                "AltitudeUnits": "metre",
+                "Signal": null,
+                "SignalUnits": "Db",
+                "Satellites": null,
+                "Heading": null
+            },
+            "Tracker": {
+                "datetime": "2022-02-16T17:46:03Z",
+                "Type": "cat",
+                "Voltage1": null,
+                "Voltage2": null
+            },
+            "Geofence": {
+                "datetime": "2022-02-16T17:46:03Z",
+                "HomeLat": "na",
+                "HomeLng": "na",
+                "Distance": {
+                    "value": "na",
+                    "units": "Metres"
+                }
+            },
+            "TotalFuelUsed": {
+                "datetime": "2022-02-16T17:46:03Z",
+                "FuelUnits": "litre",
+                "FuelConsumed": "123690"
+            },
+            "FuelUsedLast24": {
+                "datetime": "2022-02-16T17:46:03Z",
+                "FuelUnits": "litre",
+                "FuelConsumed": "117"
+            },
+            "FuelRemaining": {
+                "datetime": "2022-02-16T17:46:03Z",
+                "Percent": "98"
+            }
+        },
+        
+    ]
+}
